@@ -8,42 +8,42 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 210 40% 98%;
+    --background: 340 50% 5%;
+    --foreground: 30 20% 98%;
 
-    --card: 217 33% 8%;
-    --card-foreground: 210 40% 98%;
+    --card: 340 40% 10%;
+    --card-foreground: 30 20% 98%;
 
-    --popover: 217 33% 8%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 340 40% 10%;
+    --popover-foreground: 30 20% 98%;
 
-    --primary: 207 90% 54%;
+    --primary: 25 90% 55%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 207 90% 65%;
+    --primary-glow: 25 90% 65%;
 
-    --secondary: 217 33% 12%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 340 40% 15%;
+    --secondary-foreground: 30 20% 98%;
 
-    --muted: 217 33% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 340 40% 15%;
+    --muted-foreground: 30 20% 65%;
 
-    --accent: 199 89% 48%;
+    --accent: 350 80% 55%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 217 33% 15%;
-    --input: 217 33% 15%;
-    --ring: 207 90% 54%;
+    --border: 340 30% 20%;
+    --input: 340 40% 15%;
+    --ring: 25 90% 55%;
 
     --radius: 0.75rem;
 
     /* Custom portfolio tokens */
-    --gradient-dark: linear-gradient(180deg, hsl(0 0% 0%) 0%, hsl(225 100% 8%) 100%);
-    --gradient-blue: linear-gradient(135deg, hsl(207 90% 54%) 0%, hsl(207 90% 35%) 100%);
-    --shadow-glow: 0 0 30px hsla(207 90% 54% / 0.3);
-    --shadow-strong: 0 20px 60px hsla(207 90% 54% / 0.4);
+    --gradient-dark: linear-gradient(180deg, hsl(340 50% 5%) 0%, hsl(340 50% 10%) 100%);
+    --gradient-blue: linear-gradient(135deg, hsl(25 90% 55%) 0%, hsl(350 80% 55%) 100%);
+    --shadow-glow: 0 0 30px hsla(25 90% 55% / 0.4);
+    --shadow-strong: 0 20px 60px hsla(25 90% 55% / 0.5);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -55,7 +55,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    background: linear-gradient(to top, #000000, #030027);
+    background: linear-gradient(to top, #140005, #2d0016);
     overflow-x: hidden;
     margin: 0;
     padding: 0;

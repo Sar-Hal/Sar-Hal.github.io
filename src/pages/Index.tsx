@@ -25,16 +25,16 @@ const Index = () => {
         {/* Particles Background */}
         <Particles
           particleColors={[
-            '#e3f2fd',
-            '#bbdefb',
-            '#90caf9',
-            '#64b5f6',
-            '#42a5f5',
-            '#2196f3',
-            '#1e88e5',
-            '#1976d2',
-            '#1565c0',
-            '#0d47a1'
+            '#fff3e0',
+            '#ffe0b2',
+            '#ffcc80',
+            '#ffb74d',
+            '#ffa726',
+            '#ff9800',
+            '#fb8c00',
+            '#f57c00',
+            '#ef6c00',
+            '#e65100'
           ]}
           particleCount={300}
           particleSpread={15}
